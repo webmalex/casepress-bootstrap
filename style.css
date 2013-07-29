@@ -1,0 +1,11 @@
+/*
+Theme Name: CasePress Theme by wordpress-bootstrap
+Template: wordpress-bootstrap
+*/
+
+@import url("../wordpress-bootstrap/style.css");
+
+	.container-fluid {
+		max-width: 1200px;
+
+	}
