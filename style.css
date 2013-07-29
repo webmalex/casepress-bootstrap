@@ -6,6 +6,6 @@ Template: wordpress-bootstrap
 @import url("../wordpress-bootstrap/style.css");
 
 	.container-fluid {
-		max-width: 1200px;
+		max-width: 1600px;
 
 	}
