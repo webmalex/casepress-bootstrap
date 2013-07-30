@@ -9,3 +9,8 @@ Template: wordpress-bootstrap
 		max-width: 1600px;
 
 	}
+		
+	#comment {
+		width: 99%;
+		height: 100px;
+	}
