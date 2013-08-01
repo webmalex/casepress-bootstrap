@@ -78,7 +78,7 @@ The comments page for Bones
 
 <section id="respond" class="respond-form">
 
-	<h1 id="comment-form-title">Коммментировать</h1>
+	<h1 id="comment-form-title">Комментировать</h1>
 
 	<div id="cancel-comment-reply">
 		<p class="small"><?php cancel_comment_reply_link( __("Cancel","bonestheme") ); ?></p>
