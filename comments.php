@@ -18,7 +18,7 @@ The comments page for Bones
 
 <?php if ( have_comments() ) : ?>
 	<?php if ( ! empty($comments_by_type['comment']) ) : ?>
-	<h3 id="comments"><?php comments_number('<span>' . __("No","bonestheme") . '</span> ' . __("Responses","bonestheme") . '', '<span>' . __("One","bonestheme") . '</span> ' . __("Response","bonestheme") . '', '<span>%</span> ' . __("Responses","bonestheme") );?> <?php _e("to","bonestheme"); ?> &#8220;<?php the_title(); ?>&#8221;</h3>
+	<h1 id="comments">Комментарии</h1>
 
 	<nav id="comment-nav">
 		<ul class="clearfix">
@@ -78,7 +78,7 @@ The comments page for Bones
 
 <section id="respond" class="respond-form">
 
-	<h3 id="comment-form-title"><?php comment_form_title( __("Leave a Reply","bonestheme"), __("Leave a Reply to","bonestheme") . ' %s' ); ?></h3>
+	<h1 id="comment-form-title">Коммментировать</h1>
 
 	<div id="cancel-comment-reply">
 		<p class="small"><?php cancel_comment_reply_link( __("Cancel","bonestheme") ); ?></p>
