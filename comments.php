@@ -28,7 +28,7 @@ The comments page for Bones
 	</nav>
 	
 	<ol class="commentlist">
-		<?php wp_list_comments('type=comment&callback=bones_comments'); ?>
+		<?php wp_list_comments('type=comment&callback=cp_comments'); ?>
 	</ol>
 	
 	<?php endif; ?>
